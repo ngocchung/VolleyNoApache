@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -22,7 +23,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 
 
-public class MultipartActivity extends Activity {
+public class MultipartActivity extends AppCompatActivity {
 
     private final Context context = this;
     private final String twoHyphens = "--";
