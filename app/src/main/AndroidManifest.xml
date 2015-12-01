@@ -17,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MultipartActivity"
+            android:label="MultipartActivity" >
+        </activity>
     </application>
 
 </manifest>

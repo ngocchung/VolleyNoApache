@@ -73,5 +73,8 @@ public class MainActivity extends AppCompatActivity {
 //        if (requestQueue != null){
 //            requestQueue.add(jsonObjectRequest);
 //        }
+
+        // MULTIPART REQUEST
+//        startActivity(new Intent(this, MultipartActivity.class));
     }
 }
