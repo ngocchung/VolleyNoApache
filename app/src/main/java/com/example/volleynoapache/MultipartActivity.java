@@ -56,7 +56,7 @@ public class MultipartActivity extends Activity {
             e.printStackTrace();
         }
 
-        String url = "http://172.16.11.59:59893/api/files";
+        String url = "http://192.16.1.100:24780/postfiles";
         MultipartRequest multipartRequest = new MultipartRequest(url, null, mimeType, multipartBody, new Response.Listener<NetworkResponse>() {
             @Override
             public void onResponse(NetworkResponse response) {
