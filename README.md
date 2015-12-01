@@ -54,7 +54,7 @@ Simple Android Application using Google's Volley without Apache library.
 //            requestQueue.add(jsonObjectRequest);
 //        }
 
-	  // MULTIPART REQUEST
+	     // MULTIPART REQUEST
 //        startActivity(new Intent(this, MultipartActivity.class));
 ```
 
