@@ -19,8 +19,7 @@
         </activity>
         <activity
             android:name=".MultipartActivity"
-            android:label="MultipartActivity" >
-        </activity>
+            android:label="MultipartActivity" />
     </application>
 
 </manifest>
