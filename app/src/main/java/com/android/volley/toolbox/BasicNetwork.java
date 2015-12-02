@@ -306,8 +306,6 @@ public class BasicNetwork implements Network {
     protected static Map<String, String> convertHeaders(Map<String, List<String>> headers) {
         Map<String, String> result = new TreeMap<String, String>(String.CASE_INSENSITIVE_ORDER);
         for (Map.Entry<String, List<String>> entry : headers.entrySet()) {
-//            System.out.println("Key : " + entry.getKey()
-//                    + " ,Value : " + entry.getValue());
             String key = entry.getKey();
             List<String> value = entry.getValue();
             if (key != null && value != null && !value.isEmpty()) {
