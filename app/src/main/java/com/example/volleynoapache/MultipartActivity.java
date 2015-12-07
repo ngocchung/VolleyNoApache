@@ -45,6 +45,8 @@ public class MultipartActivity extends AppCompatActivity {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         DataOutputStream dos = new DataOutputStream(bos);
         try {
+            // text part
+            // buildPart(dos, "text-part", "text-content");
             // the first file
             buildPart(dos, fileData1, "ic_action_android.png");
             // the second file
